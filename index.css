@@ -1,0 +1,188 @@
+*{
+    padding: 0;
+    margin: 0;
+   
+}
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+body{
+    background-color:black;
+}
+.mm {
+    background-color: #123;
+    width: 90px;
+    height: 100vh;
+    overflow: hidden;
+    transition: 1s;
+    
+}
+#img{
+    width: 70px;
+    height: 70px;
+    border-radius: 35px;
+    position: relative;
+    left: 10px;
+    top:10px;
+    border: 2px aliceblue solid;
+   
+    
+}
+#lione{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 250px;
+}
+#ahmed{
+    color: aliceblue;
+    font-weight: 600;
+}
+
+.mmm li a{
+    display: block;
+    text-decoration: none;
+   
+    padding: 10px 5px;
+    margin: 10px 0;
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    gap: 40px;
+    position: relative;
+ 
+    left: 20px;
+   
+    transition: .5s;
+
+   
+}
+ul li a:hover{
+    background-color: #ffffff55;
+    width: 90%;
+    border-radius: 20px;
+}
+ul li i{
+    font-size: 30px;
+    color:aliceblue
+}
+ul li a{
+    color: aliceblue;
+    font-size: 25px;
+}
+ul{
+    position: relative;
+    height: 95%;
+}
+.mm:hover{
+    width: 300px;
+    transition: 1s;
+}
+.right{
+    
+   
+    margin: 20px;
+    flex-grow: 1;
+}
+.mother{
+    display: flex;
+
+    
+    
+
+}
+#aa{
+    background-color: rgba(23, 23, 177, 0.863);
+    border-radius: 10px;
+    height: 30px;
+    margin-bottom: 10px;
+    color: aliceblue;
+}
+#aa p{
+    padding: 5px;
+}
+.divone ,.divtwo ,.divthree ,.divthree ,.divfour{
+    background-color: #123;
+    margin-top: 10px;
+    margin-bottom: 5px;
+    color: aliceblue;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+   padding: 30px;
+   width: 200px;
+   flex-grow: 1;
+   height: 160px;
+   border-radius: 30px;
+    
+}
+#right{
+    display: flex;
+    justify-content: space-between;
+    gap: 5px;
+    justify-content: space-evenly;
+    
+    flex-wrap: wrap;
+
+
+}
+#user ,#posts ,#prodects ,#revenue{
+    font-size: 20px;
+}
+#hundred ,#ww ,#www ,#wwww{
+    font-size: 34px;
+}
+.divone .fas ,.divtwo .fas ,.divthree .fas ,.divfour .fas{
+    font-size: 40px;
+}
+ #prodect{
+    background-color: rgba(23, 23, 177, 0.863);
+    color: aliceblue;
+    padding: 6px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-between;
+    margin: 5px;
+    margin-bottom: 10px;
+ }
+thead tr th{
+    
+    background-color: rgba(23, 23, 177, 0.863);
+   border-radius: 10px;
+   text-align: center;
+   color: aliceblue;
+   width: 100vh;
+  
+   
+}
+tr{
+    height: 27px;
+}
+tbody tr td{
+    border-radius: 10px;
+    text-align: center;
+    background-color:#123;
+    width: 100vh;
+    
+
+}
+table{
+    border-spacing:7px;
+}
+#tv{
+    color: aliceblue;
+}
+#vv{
+    background-color: rgba(6, 60, 6, 0.888);
+    border-radius: 4px;
+    color: aliceblue;
+    padding: 5px;
+}
+#vvv{
+    background-color: rgb(247, 165, 65);
+    padding: 5px;
+    border-radius: 4px;
+    font-size: 16px;
+}
+td:hover{
+    background-color:  #ffffff55;
+}
+    
